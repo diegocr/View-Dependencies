@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Afhankelijkheden">
+<!ENTITY pageInfo.DepTab.accesskey "A">
+<!ENTITY pageInfo.DepTab.instruction "Deze cascadeview geeft een overzicht van alle bronnen waarvan de huidige pagina afhankelijk is.">
+<!ENTITY pageInfo.DepTab.ress "Bronnen">
+<!ENTITY pageInfo.DepTab.size "Grootte">
+<!ENTITY pageInfo.DepTab.copyall.label "Alles kopiëren">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "URL kopiëren">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Hostnaam kopiëren">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "In nieuw tabblad openen">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "In nieuw venster openen">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "V">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Uit cache verwijderen">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "w">

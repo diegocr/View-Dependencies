@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - Einstellungen">
+<!ENTITY viewdep.options.grpMenu.label "Menüs">
+<!ENTITY viewdep.options.hideToolsMenu.label "Eintrag &quot;Abhängigkeiten anzeigen&quot; im Menü &quot;Extras&quot; ausblenden">
+<!ENTITY viewdep.options.hideToolsMenu.key "x">
+<!ENTITY viewdep.options.hideContextMenu.label "Eintrag &quot;Abhängigkeiten anzeigen&quot; im Kontextmenü ausblenden">
+<!ENTITY viewdep.options.hideContextMenu.key "K">

@@ -1,0 +1,7 @@
+<!-- Options dialog -->
+<!ENTITY viewdep.options.title "View Dependencies - Options">
+<!ENTITY viewdep.options.grpMenu.label "Menus">
+<!ENTITY viewdep.options.hideToolsMenu.label "Masquer l'élément Voir les Dépendances du menu Outils">
+<!ENTITY viewdep.options.hideToolsMenu.key "O">
+<!ENTITY viewdep.options.hideContextMenu.label "Masquer l'élément Voir les Dépendances du menu Contextuel">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

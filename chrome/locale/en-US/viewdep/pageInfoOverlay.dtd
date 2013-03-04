@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Dependencies">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "This tree view lists all ressources the current page depends on.">
+<!ENTITY pageInfo.DepTab.ress "Ressources">
+<!ENTITY pageInfo.DepTab.size "Size">
+<!ENTITY pageInfo.DepTab.copyall.label "Copy All">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "Copy URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Copy Hostname">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Open in New Tab">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Open in New Window">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Remove from Cache">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

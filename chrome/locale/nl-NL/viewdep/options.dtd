@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - Opties">
+<!ENTITY viewdep.options.grpMenu.label "Menu&apos;s">
+<!ENTITY viewdep.options.hideToolsMenu.label "Het &apos;Afhankelijkheden bekijken&apos; onderdeel in het Extra menu verbergen">
+<!ENTITY viewdep.options.hideToolsMenu.key "E">
+<!ENTITY viewdep.options.hideContextMenu.label "Het &apos;Afhankelijkheden bekijken&apos; onderdeel in het contextmenu verbergen">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

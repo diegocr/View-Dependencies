@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://viewdep/locale/menu.dtd">
+<overlay id="viewdep" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+ <script type="application/x-javascript" src="chrome://viewdep/content/menus.js"/>
+
+ <menupopup id="menu_View_Popup">
+  <menuitem id="viewdep_toolMenu"
+            label="&viewdep.menu.label;"
+            accesskey="&viewdep.menu.key;"
+            position="13"
+            oncommand="viewdep_show();" />
+ </menupopup>
+
+ <popup id="contentAreaContextMenu">
+  <menuitem id="viewdep_contextMenu"
+            label="&viewdep.menu.label;"
+            accesskey="&viewdep.menu.key;"
+            oncommand="viewdep_show();"
+            insertafter="context-viewinfo" />
+ </popup>
+</overlay>

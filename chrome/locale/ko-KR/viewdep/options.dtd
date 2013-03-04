@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies 선택사항">
+<!ENTITY viewdep.options.grpMenu.label "메뉴">
+<!ENTITY viewdep.options.hideToolsMenu.label "도구 메뉴 내 [의존적 항목 보기]를 표시하지 않음">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "문맥 메뉴 내 [의존적 항목 보기]를 표시하지 않음">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

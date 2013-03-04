@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - Επιλογές">
+<!ENTITY viewdep.options.grpMenu.label "Μενού">
+<!ENTITY viewdep.options.hideToolsMenu.label "Απόκρυψη στοιχείου &quot;Προβολή εξαρτήσεων&quot; από το μενού &quot;Εργαλεία&quot;">
+<!ENTITY viewdep.options.hideToolsMenu.key "Ε">
+<!ENTITY viewdep.options.hideContextMenu.label "Απόκρυψη στοιχείου &quot;Προβολή εξαρτήσεων&quot; από το Μενού περιεχομένου">
+<!ENTITY viewdep.options.hideContextMenu.key "Μ">

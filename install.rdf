@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{8965bb4b-c2ca-2b84-6b49-7afb2760518c}</em:id>
+		<em:version>0.3.3.3</em:version>
+
+		<!-- Target Application this extension can install into,
+	     with minimum and maximum supported versions. -->
+		<em:targetApplication><!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>4.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:targetApplication><!-- SeaMonkey -->
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>2.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:name>View Dependencies</em:name>
+		<em:description>Adds a tab listing dependencies and their sizes in the Page Info window.</em:description>
+		<em:creator>Florian QUEZE</em:creator>
+		<em:contributor>Philip Chee</em:contributor>
+		<em:iconURL>chrome://viewdep/skin/icon.png</em:iconURL>
+		<em:optionsURL>chrome://viewdep/content/options.xul</em:optionsURL>
+		<em:homepageURL>http://mozilla.queze.net</em:homepageURL>
+	</Description>
+</RDF>
+

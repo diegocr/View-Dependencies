@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Bağımlılıklar">
+<!ENTITY pageInfo.DepTab.accesskey "B">
+<!ENTITY pageInfo.DepTab.instruction "Bu ağaç görünümü, şu anki sayfanın bağımlı olduğu tüm kaynakları listeler.">
+<!ENTITY pageInfo.DepTab.ress "Kaynaklar">
+<!ENTITY pageInfo.DepTab.size "Boyut">
+<!ENTITY pageInfo.DepTab.copyall.label "Tümünü Kopyala">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "T">
+<!ENTITY pageInfo.DepTab.copyurl.label "URL'yi Kopyala">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Host Adını Kopyala">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Yeni Sekmede Aç">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "S">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Yeni Pencerede aç">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "P">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Önbellekten Kaldır">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "Ö">

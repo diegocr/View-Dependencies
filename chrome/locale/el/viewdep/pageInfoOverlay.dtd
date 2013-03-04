@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Εξαρτήσεις">
+<!ENTITY pageInfo.DepTab.accesskey "Ε">
+<!ENTITY pageInfo.DepTab.instruction "Αυτή η προβολή δένδρου παραθέτει σε λίστα όλους τους πόρους από τους οποίους εξαρτάται η τρέχουσα σελίδα.">
+<!ENTITY pageInfo.DepTab.ress "Πόροι">
+<!ENTITY pageInfo.DepTab.size "Μέγεθος">
+<!ENTITY pageInfo.DepTab.copyall.label "Αντιγραφή όλων">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "λ">
+<!ENTITY pageInfo.DepTab.copyurl.label "Αντιγραφή URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Αντιγραφή ονόματος κεντρικού υπολογιστή">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "υ">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Άνοιγμα σε νέα καρτέλα">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "κ">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Άνοιγμα σε νέο παράθυρο">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "π">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Αφαίρεση από την κρυφή μνήμη">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "σ">

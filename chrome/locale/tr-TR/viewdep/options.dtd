@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - Seçenekler">
+<!ENTITY viewdep.options.grpMenu.label "Menüler">
+<!ENTITY viewdep.options.hideToolsMenu.label "Araçlar menüsündeki View Dependencies ögesini gizle">
+<!ENTITY viewdep.options.hideToolsMenu.key "A">
+<!ENTITY viewdep.options.hideContextMenu.label "Sağ-tık menüsündeki View Dependencies ögesini gizle">
+<!ENTITY viewdep.options.hideContextMenu.key "S">

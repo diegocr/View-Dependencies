@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - オプション">
+<!ENTITY viewdep.options.grpMenu.label "メニュー">
+<!ENTITY viewdep.options.hideToolsMenu.label "ツールメニューで [ページの依存関係を表示] を非表示">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "コンテキストメニューで [ページの依存関係を表示] を非表示">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

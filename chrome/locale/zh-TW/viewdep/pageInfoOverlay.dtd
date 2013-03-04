@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "相依性 (D)">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "這樹狀結構顯示本頁所有資源的列表根據">
+<!ENTITY pageInfo.DepTab.ress "資源">
+<!ENTITY pageInfo.DepTab.size "大小">
+<!ENTITY pageInfo.DepTab.copyall.label "複製全部(A)">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "複製URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "複製主機(H)">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "在新分頁開啟(T)">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "在新視窗開啟(W)">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "從快取中移除(R)">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

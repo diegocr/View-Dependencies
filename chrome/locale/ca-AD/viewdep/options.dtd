@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "Veure dependències - Opcions">
+<!ENTITY viewdep.options.grpMenu.label "Menús">
+<!ENTITY viewdep.options.hideToolsMenu.label "Amaga l&apos;ítem de Veure dependències al menú d&apos;eines">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "Amaga l&apos;ítem de Veure Dependències al menú contextual">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

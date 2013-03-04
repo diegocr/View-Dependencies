@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Зависимости">
+<!ENTITY pageInfo.DepTab.accesskey "а">
+<!ENTITY pageInfo.DepTab.instruction "Это дерево просмотра списка всех ресурсов, находящихся на текущей страницы.">
+<!ENTITY pageInfo.DepTab.ress "Ресурсы">
+<!ENTITY pageInfo.DepTab.size "Размер">
+<!ENTITY pageInfo.DepTab.copyall.label "Копировать всё">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "и">
+<!ENTITY pageInfo.DepTab.copyurl.label "Копировать адрес">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "в">
+<!ENTITY pageInfo.DepTab.copyhost.label "Копировать имя хоста">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "х">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Открыть в новой вкладке">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "к">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Открыть в новом окне">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "н">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Удалить из кэша">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "э">

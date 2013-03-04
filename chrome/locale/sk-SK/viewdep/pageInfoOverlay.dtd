@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Závislosti">
+<!ENTITY pageInfo.DepTab.accesskey "Z">
+<!ENTITY pageInfo.DepTab.instruction "Tento stromový prehľad zobrazuje všetky zdroje na ktoré stránka odkazuje">
+<!ENTITY pageInfo.DepTab.ress "Zdroje">
+<!ENTITY pageInfo.DepTab.size "Veľkosť">
+<!ENTITY pageInfo.DepTab.copyall.label "Kopírovať všetko">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "v">
+<!ENTITY pageInfo.DepTab.copyurl.label "Kopírovať adresu">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "a">
+<!ENTITY pageInfo.DepTab.copyhost.label "Kopírovať názov hostiteľa">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "h">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Otvoriť na novej karte">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "k">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Otvoriť v novom okne">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "o">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Odstrániť z vyrovnávacej pamäte">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "d">

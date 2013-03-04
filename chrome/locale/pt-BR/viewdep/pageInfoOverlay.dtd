@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Dependências">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "Esta árvore lista todos os recursos, dos quais a página atual depende.">
+<!ENTITY pageInfo.DepTab.ress "Recursos">
+<!ENTITY pageInfo.DepTab.size "Tamanho">
+<!ENTITY pageInfo.DepTab.copyall.label "Copiar Tudo">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "Copiar URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Copiar Domínio">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "D">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Abrir em nova aba">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Abrir em nova janela">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Retirar do cachê">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "依赖">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "树形视图列出当前页面依赖的所有资源。">
+<!ENTITY pageInfo.DepTab.ress "资源">
+<!ENTITY pageInfo.DepTab.size "大小">
+<!ENTITY pageInfo.DepTab.copyall.label "全部复制">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "复制 URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "复制主机名">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "在新标签中打开">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "在新窗口打开">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "从缓存中移除">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

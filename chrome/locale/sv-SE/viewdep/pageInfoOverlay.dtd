@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Beroenden">
+<!ENTITY pageInfo.DepTab.accesskey "B">
+<!ENTITY pageInfo.DepTab.instruction "Trädmenyn visar alla resurser som denna sida är beroende av.">
+<!ENTITY pageInfo.DepTab.ress "Resurser">
+<!ENTITY pageInfo.DepTab.size "Storlek">
+<!ENTITY pageInfo.DepTab.copyall.label "Kopiera allt">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "a">
+<!ENTITY pageInfo.DepTab.copyurl.label "Kopiera URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Koipera värdnamn">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "v">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Öppna i ny flik">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "l">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Öppna i nytt fönster">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "f">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Ta bort från cachen">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "T">

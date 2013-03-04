@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "Ver Dependencias - Opciones">
+<!ENTITY viewdep.options.grpMenu.label "Menus">
+<!ENTITY viewdep.options.hideToolsMenu.label "Ocultar Ver Dependencias en menú de Herramientas.">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "Ocultar Ver Dependencias en menú Contextual.">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

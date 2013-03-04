@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "Opzioni di View Dependencies">
+<!ENTITY viewdep.options.grpMenu.label "Menu">
+<!ENTITY viewdep.options.hideToolsMenu.label "Nascondi la voce &apos;Visualizza le dipendenze&apos; nel menu Strumenti">
+<!ENTITY viewdep.options.hideToolsMenu.key "V">
+<!ENTITY viewdep.options.hideContextMenu.label "Nascondi la voce &apos;Visualizza le dipendenze&apos; nel menu contestuale">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Abhängigkeiten">
+<!ENTITY pageInfo.DepTab.accesskey "b">
+<!ENTITY pageInfo.DepTab.instruction "Diese Baumansicht zeigt alle Quellen an, auf denen die aktuelle Seite basiert.">
+<!ENTITY pageInfo.DepTab.ress "Quellen">
+<!ENTITY pageInfo.DepTab.size "Größe">
+<!ENTITY pageInfo.DepTab.copyall.label "Alles kopieren">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "Adresse kopieren">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "k">
+<!ENTITY pageInfo.DepTab.copyhost.label "Host-Namen kopieren">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "In neuem Tab öffnen">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "In neuem Fenster öffnen">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "F">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Aus dem Cache entfernen">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "C">

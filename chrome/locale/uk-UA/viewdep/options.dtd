@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - Пераметри">
+<!ENTITY viewdep.options.grpMenu.label "Елементи меню">
+<!ENTITY viewdep.options.hideToolsMenu.label "Не показувати «Перегляд залежностей» у меню Інструменти">
+<!ENTITY viewdep.options.hideToolsMenu.key "І">
+<!ENTITY viewdep.options.hideContextMenu.label "Не показувати «Перегляд залежностей» у Контекстному меню">
+<!ENTITY viewdep.options.hideContextMenu.key "К">

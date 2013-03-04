@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "Настройки">
+<!ENTITY viewdep.options.grpMenu.label "Элементы меню">
+<!ENTITY viewdep.options.hideToolsMenu.label "Скрывать «Просмотр зависимостей» из меню Инструменты">
+<!ENTITY viewdep.options.hideToolsMenu.key "с">
+<!ENTITY viewdep.options.hideContextMenu.label "Скрывать «Просмотр зависимостей» из контекстного меню">
+<!ENTITY viewdep.options.hideContextMenu.key "е">

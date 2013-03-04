@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Залежності">
+<!ENTITY pageInfo.DepTab.accesskey "З">
+<!ENTITY pageInfo.DepTab.instruction "Це дерево перегляду списку усіх ресурсів, що знаходяться на поточній сторінці.">
+<!ENTITY pageInfo.DepTab.ress "Ресурси">
+<!ENTITY pageInfo.DepTab.size "Розмір">
+<!ENTITY pageInfo.DepTab.copyall.label "Копіювати усе">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "у">
+<!ENTITY pageInfo.DepTab.copyurl.label "Копіювати адресу">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "а">
+<!ENTITY pageInfo.DepTab.copyhost.label "Копіювати ім'я хосту.">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "х">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Відкрити у новій вкладці">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "л">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Відкрити у новому вікні">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "і">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Вилучити з кешу">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "ш">

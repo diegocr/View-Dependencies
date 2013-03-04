@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "查看依赖 - 选项">
+<!ENTITY viewdep.options.grpMenu.label "菜单">
+<!ENTITY viewdep.options.hideToolsMenu.label "在工具栏中隐藏查看依赖">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "在上下文菜单中隐藏查看依赖">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

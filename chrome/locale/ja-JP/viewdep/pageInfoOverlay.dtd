@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "依存関係">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "このページと依存関係のあるすべてのリソースを一覧として表示します。">
+<!ENTITY pageInfo.DepTab.ress "リソース">
+<!ENTITY pageInfo.DepTab.size "容量">
+<!ENTITY pageInfo.DepTab.copyall.label "すべてコピー">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "URL をコピー">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "ホスト名をコピー">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "新しいタブで開く">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "新しいウィンドウで開く">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "キャッシュから削除">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

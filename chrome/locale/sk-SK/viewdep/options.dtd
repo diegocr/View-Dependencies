@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "Možnosti View Dependencies">
+<!ENTITY viewdep.options.grpMenu.label "Ponuky">
+<!ENTITY viewdep.options.hideToolsMenu.label "Skryť položku View Dependencies v ponuke Nástroje">
+<!ENTITY viewdep.options.hideToolsMenu.key "N">
+<!ENTITY viewdep.options.hideContextMenu.label "Skryť položku View Dependencies v kontextovej ponuke">
+<!ENTITY viewdep.options.hideContextMenu.key "k">

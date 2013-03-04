@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - 選項">
+<!ENTITY viewdep.options.grpMenu.label "選單">
+<!ENTITY viewdep.options.hideToolsMenu.label "在工具選單中隱藏 頁面相依性 項目(T)">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "在右鍵選單中隱藏 頁面相依性 項目(C)">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

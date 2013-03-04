@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - opcje">
+<!ENTITY viewdep.options.grpMenu.label "Opcje">
+<!ENTITY viewdep.options.hideToolsMenu.label "Nie wyświetlaj elementu &quot;Pokaż zależności&quot; w menu &quot;Narzędzia&quot;">
+<!ENTITY viewdep.options.hideToolsMenu.key "N">
+<!ENTITY viewdep.options.hideContextMenu.label "Nie wyświetlaj elementu &quot;Pokaż zależności&quot; w menu kontekstowym">
+<!ENTITY viewdep.options.hideContextMenu.key "p">

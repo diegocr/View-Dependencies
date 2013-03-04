@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Zależności">
+<!ENTITY pageInfo.DepTab.accesskey "a">
+<!ENTITY pageInfo.DepTab.instruction "Wyświetla elementy wchodzące w skład strony i ich zależności">
+<!ENTITY pageInfo.DepTab.ress "Zasoby">
+<!ENTITY pageInfo.DepTab.size "Rozmiar">
+<!ENTITY pageInfo.DepTab.copyall.label "Kopiuj wszystko">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "w">
+<!ENTITY pageInfo.DepTab.copyurl.label "Kopiuj URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Kopiuj nazwę domeny">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "d">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Otwórz w nowej karcie">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "k">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Otwórz w nowym oknie">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "o">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Usuń z pamięci podręcznej">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "p">

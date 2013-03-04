@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is the View Dependencies extension for Page Info.
+   -
+   - The Initial Developer of the Original Code is
+   -   Florian QUEZE <f.qu@queze.net>
+   - Portions created by the Initial Developer are Copyright (C) 2005
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- This file overlays "chrome://navigator/content/pageInfo.xul" -->
+<?xml-stylesheet href="chrome://viewdep/skin/viewdep.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://viewdep/locale/pageInfoOverlay.dtd">
+
+<overlay id="ViewDepPageInfoOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+          src="chrome://viewdep/content/pageInfoOverlay.js"/>
+  <window id="main-window">
+    <stringbundleset id="pageinfobundleset" insertbefore="pageinfobundle">
+      <stringbundle id="viewdepbundle" src="chrome://viewdep/locale/viewdep.properties"/>
+    </stringbundleset>
+  </window>
+
+
+  <script type="application/x-javascript">
+    onLoadRegistry.push(initDepTab);
+  </script>
+
+  <!-- Firefox 3 -->
+  <radiogroup id="viewGroup">
+    <radio id="DepTab"
+           label="&pageInfo.DepTab.label;"
+           accesskey="&pageInfo.DepTab.accesskey;"
+           oncommand="showTab('Dep');"/>
+  </radiogroup>
+
+  <!-- SeaMonkey and Firefox < 3 -->
+  <tabs id="tabs">
+    <tab id="DepTab" label="&pageInfo.DepTab.label;"
+      accesskey="&pageInfo.DepTab.accesskey;"/>
+  </tabs>
+
+  <!-- One of these is for Firefox, the other one is for SeaMonkey 
+       The content will be filled later by the next tabpanel tag -->
+  <tabpanels id="tabpanels">
+    <tabpanel id="DepPanel"/>
+  </tabpanels>
+  <tabpanels id="mainDeck">
+    <tabpanel id="DepPanel"/>
+  </tabpanels>
+
+    <tabpanel id="DepPanel" flex="1" orient="vertical">
+      <!-- <label> &pageInfo.DepTab.instruction; </label> -->
+      <tree id="DepTree" flex="1" hidecolumnpicker="true" contextmenu="pidcontext">
+        <treecols>
+          <treecol id="DepRess" label="&pageInfo.DepTab.ress;" flex="10"
+            primary="true"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="DepSize" label="&pageInfo.DepTab.size;" flex="1"/>
+        </treecols>
+        <treechildren/>
+        <commandset>
+          <command id="cmd_opennewtab"      oncommand="onOpen(0);"/>
+          <command id="cmd_opennewwin"      oncommand="onOpen(1);"/>
+          <command id="cmd_copyall"         oncommand="onCopyAll();"/>
+          <command id="cmd_copyurl"         oncommand="onCopy(0);"/>
+          <command id="cmd_copyhost"        oncommand="onCopy(1);"/>
+          <command id="cmd_uncache"         oncommand="onUnCache();"/>
+        </commandset>
+        <menupopup id="pidcontext" onpopupshowing="return makeMenu();">
+          <menuitem id="DepNewTab"   label="&pageInfo.DepTab.openinnewtab.label;" command="cmd_opennewtab" accesskey="&pageInfo.DepTab.openinnewtab.accesskey;"/>
+          <menuitem id="DepNewWin"   label="&pageInfo.DepTab.openinnewwin.label;" command="cmd_opennewwin" accesskey="&pageInfo.DepTab.openinnewwin.accesskey;"/>
+          <menuseparator id="DepCopySep"/>
+          <menuitem id="DepCopyAll"  label="&pageInfo.DepTab.copyall.label;"      command="cmd_copyall"    accesskey="&pageInfo.DepTab.copyall.accesskey;"/>
+          <menuitem id="DepCopyUrl"  label="&pageInfo.DepTab.copyurl.label;"      command="cmd_copyurl"    accesskey="&pageInfo.DepTab.copyurl.accesskey;"/>
+          <menuitem id="DepCopyHost" label="&pageInfo.DepTab.copyhost.label;"     command="cmd_copyhost"   accesskey="&pageInfo.DepTab.copyhost.accesskey;"/>
+          <menuseparator id="DepRmCacheSep"/>
+          <menuitem id="DepRmCache"  label="&pageInfo.DepTab.removefromcache.label;" command="cmd_uncache" accesskey="&pageInfo.DepTab.removefromcache.accesskey;"/>
+        </menupopup>
+      </tree>
+      <progressmeter mode="undetermined" id="DepTabProgressMeter"/>
+    </tabpanel>
+
+</overlay>
+

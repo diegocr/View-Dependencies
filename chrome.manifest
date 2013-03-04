@@ -1,0 +1,27 @@
+overlay	chrome://navigator/content/pageInfo.xul	chrome://viewdep/content/pageInfoOverlay.xul
+overlay	chrome://navigator/content/pageinfo/pageInfo.xul	chrome://viewdep/content/pageInfoOverlay.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://viewdep/content/menu.xul
+overlay	chrome://browser/content/pageInfo.xul	chrome://viewdep/content/pageInfoOverlay.xul
+overlay	chrome://browser/content/pageinfo/pageInfo.xul	chrome://viewdep/content/pageInfoOverlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://viewdep/content/menuff.xul
+content	viewdep	chrome/content/viewdep/
+skin	viewdep	classic/1.0	chrome/skin/classic/viewdep/
+locale	viewdep	fr-FR	chrome/locale/fr-FR/viewdep/
+locale	viewdep	en-US	chrome/locale/en-US/viewdep/
+locale	viewdep	de-DE	chrome/locale/de-DE/viewdep/
+locale	viewdep	pt-BR	chrome/locale/pt-BR/viewdep/
+locale	viewdep	nl-NL	chrome/locale/nl-NL/viewdep/
+locale	viewdep	ja-JP	chrome/locale/ja-JP/viewdep/
+locale	viewdep	zh-TW	chrome/locale/zh-TW/viewdep/
+locale	viewdep	ca-AD	chrome/locale/ca-AD/viewdep/
+locale	viewdep	es-ES	chrome/locale/es-ES/viewdep/
+locale	viewdep	el  	chrome/locale/el/viewdep/
+locale	viewdep	it-IT	chrome/locale/it-IT/viewdep/
+locale	viewdep	ko-KR	chrome/locale/ko-KR/viewdep/
+locale	viewdep	pl-PL	chrome/locale/pl-PL/viewdep/
+locale	viewdep	ru-RU	chrome/locale/ru-RU/viewdep/
+locale	viewdep	sk-SK	chrome/locale/sk-SK/viewdep/
+locale	viewdep	zh-CN	chrome/locale/zh-CN/viewdep/
+locale	viewdep	tr-TR	chrome/locale/tr-TR/viewdep/
+locale	viewdep	uk-UA	chrome/locale/uk-UA/viewdep/
+locale	viewdep	sv-SE	chrome/locale/sv-SE/viewdep/

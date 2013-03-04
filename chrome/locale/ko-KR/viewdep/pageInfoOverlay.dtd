@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "의존성">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "이 트리 뷰는 현재 페이지가 의존하는 모든 자원을 목록으로 만든 겁니다.">
+<!ENTITY pageInfo.DepTab.ress "자원">
+<!ENTITY pageInfo.DepTab.size "크기">
+<!ENTITY pageInfo.DepTab.copyall.label "모두 복사">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "URL 복사">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "호스트명 복사">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "새 탭으로 열기">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "새 창으로 열기">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "캐쉬로 부터 제거">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

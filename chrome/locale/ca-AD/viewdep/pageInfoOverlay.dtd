@@ -1,0 +1,17 @@
+<!ENTITY pageInfo.DepTab.label "Dependències">
+<!ENTITY pageInfo.DepTab.accesskey "D">
+<!ENTITY pageInfo.DepTab.instruction "Aquesta vista d&apos;arbre llista totes les fonts a la pàgina actual de la que depenen.">
+<!ENTITY pageInfo.DepTab.ress "Fonts">
+<!ENTITY pageInfo.DepTab.size "Tamany">
+<!ENTITY pageInfo.DepTab.copyall.label "Copia Totes">
+<!ENTITY pageInfo.DepTab.copyall.accesskey "A">
+<!ENTITY pageInfo.DepTab.copyurl.label "Copia Adreça URL">
+<!ENTITY pageInfo.DepTab.copyurl.accesskey "U">
+<!ENTITY pageInfo.DepTab.copyhost.label "Copia Nom del servidor">
+<!ENTITY pageInfo.DepTab.copyhost.accesskey "H">
+<!ENTITY pageInfo.DepTab.openinnewtab.label "Obre en una Nova Pestanya">
+<!ENTITY pageInfo.DepTab.openinnewtab.accesskey "T">
+<!ENTITY pageInfo.DepTab.openinnewwin.label "Obre en una Nova Finestra">
+<!ENTITY pageInfo.DepTab.openinnewwin.accesskey "W">
+<!ENTITY pageInfo.DepTab.removefromcache.label "Esborra del Caxè">
+<!ENTITY pageInfo.DepTab.removefromcache.accesskey "R">

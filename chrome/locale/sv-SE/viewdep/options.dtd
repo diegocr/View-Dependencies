@@ -1,0 +1,6 @@
+<!ENTITY viewdep.options.title "View Dependencies - inställningar">
+<!ENTITY viewdep.options.grpMenu.label "Menyer">
+<!ENTITY viewdep.options.hideToolsMenu.label "Dölj View Dependencies under Verktyg i menyn">
+<!ENTITY viewdep.options.hideToolsMenu.key "T">
+<!ENTITY viewdep.options.hideContextMenu.label "Dölj View Dependencies under snabbvalsmenyn">
+<!ENTITY viewdep.options.hideContextMenu.key "C">

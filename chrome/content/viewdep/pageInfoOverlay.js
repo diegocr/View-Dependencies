@@ -22,6 +22,7 @@
  *
  * Contributor(s):
  *   Philip Chee <philip.chee@gmail.com>
+ *   Diego Casorran <dcasorran@gmail.com>
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,6 +38,7 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
+(function(scope){
 var aserv=Components.classes["@mozilla.org/atom-service;1"]
                     .getService(Components.interfaces.nsIAtomService);
 var gIOService = Components.classes["@mozilla.org/network/io-service;1"]
@@ -121,6 +123,12 @@ var treeView = {
   getRowProperties: function(row,props){},
   getCellProperties: function(row,col,props)
   {
+    if (!props) {
+		props = {
+			_xFpEz: [],
+			AppendElement:function(e){ this._xFpEz.push(e); }
+		};
+    }
     if (row == 0) {
       props.AppendElement(aserv.getAtom("tgr"));
       if (LocationServers.dataSize <= 0)
@@ -131,6 +139,8 @@ var treeView = {
       props.AppendElement(aserv.getAtom("ital"));
     if (res & gr)
       props.AppendElement(aserv.getAtom("gr"));
+    if(props._xFpEz)
+		return props._xFpEz.join(" ");
   },
   getColumnProperties: function(colid,col,props){},
   rowCountChanged: function(pos, nb)
@@ -1235,3 +1245,15 @@ function FormatSize(aSize)
     return viewdepBundle.getFormattedString("kilobytes", [(Math.round(aSize/1024*100)/100).toLocaleString()]);
   return viewdepBundle.getFormattedString("bytes", [(aSize).toLocaleString()]);
 }
+
+scope.viewdep = {
+	initDepTab : initDepTab,
+	showTab    : showTab,
+	onOpen     : onOpen,
+	onCopyAll  : onCopyAll,
+	onCopy     : onCopy,
+	onUnCache  : onUnCache,
+	makeMenu   : makeMenu
+};
+
+})(this);

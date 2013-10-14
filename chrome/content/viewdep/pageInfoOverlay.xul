@@ -20,6 +20,7 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -   Diego Casorran <dcasorran@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -52,7 +53,7 @@
 
 
   <script type="application/x-javascript">
-    onLoadRegistry.push(initDepTab);
+    onLoadRegistry.push(viewdep.initDepTab);
   </script>
 
   <!-- Firefox 3 -->
@@ -60,7 +61,7 @@
     <radio id="DepTab"
            label="&pageInfo.DepTab.label;"
            accesskey="&pageInfo.DepTab.accesskey;"
-           oncommand="showTab('Dep');"/>
+           oncommand="viewdep.showTab('Dep');"/>
   </radiogroup>
 
   <!-- SeaMonkey and Firefox < 3 -->
@@ -89,14 +90,14 @@
         </treecols>
         <treechildren/>
         <commandset>
-          <command id="cmd_opennewtab"      oncommand="onOpen(0);"/>
-          <command id="cmd_opennewwin"      oncommand="onOpen(1);"/>
-          <command id="cmd_copyall"         oncommand="onCopyAll();"/>
-          <command id="cmd_copyurl"         oncommand="onCopy(0);"/>
-          <command id="cmd_copyhost"        oncommand="onCopy(1);"/>
-          <command id="cmd_uncache"         oncommand="onUnCache();"/>
+          <command id="cmd_opennewtab"      oncommand="viewdep.onOpen(0);"/>
+          <command id="cmd_opennewwin"      oncommand="viewdep.onOpen(1);"/>
+          <command id="cmd_copyall"         oncommand="viewdep.onCopyAll();"/>
+          <command id="cmd_copyurl"         oncommand="viewdep.onCopy(0);"/>
+          <command id="cmd_copyhost"        oncommand="viewdep.onCopy(1);"/>
+          <command id="cmd_uncache"         oncommand="viewdep.onUnCache();"/>
         </commandset>
-        <menupopup id="pidcontext" onpopupshowing="return makeMenu();">
+        <menupopup id="pidcontext" onpopupshowing="return viewdep.makeMenu();">
           <menuitem id="DepNewTab"   label="&pageInfo.DepTab.openinnewtab.label;" command="cmd_opennewtab" accesskey="&pageInfo.DepTab.openinnewtab.accesskey;"/>
           <menuitem id="DepNewWin"   label="&pageInfo.DepTab.openinnewwin.label;" command="cmd_opennewwin" accesskey="&pageInfo.DepTab.openinnewwin.accesskey;"/>
           <menuseparator id="DepCopySep"/>

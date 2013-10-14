@@ -21,6 +21,7 @@
  * Large parts of this code are taken from pageInfo.js
  *
  * Contributor(s):
+ *   Diego Casorran <dcasorran@gmail.com>
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,6 +37,7 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
+(function(){
 var prefManager = Components.classes["@mozilla.org/preferences-service;1"]
                             .getService(Components.interfaces.nsIPrefBranch);
 
@@ -43,6 +45,7 @@ function viewdep_show()
 {
   BrowserPageInfo(null, 'DepTab');
 }
+window.viewdep_show = viewdep_show;
 
 function viewdep_addEvents()
 {
@@ -87,3 +90,4 @@ function viewdep_aboutToShow(itemId, prefName)
 }
 
 window.addEventListener("load", viewdep_addEvents, true);
+})();
